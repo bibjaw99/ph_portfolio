@@ -158,3 +158,31 @@ main > section {
   text-align: center;
   margin-top: 50px;
 }
+
+/* Footer section styles */
+footer {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+  margin-top: 100px;
+}
+.social-links a {
+  margin-right: 25px;
+}
+.footer-column {
+  width: 50%;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  font-size: 16px;
+  color: grey;
+  border-radius: 5px;
+  border: 0;
+  background: white;
+  width: 100%;
+}
